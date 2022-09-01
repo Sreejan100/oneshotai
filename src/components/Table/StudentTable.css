@@ -1,0 +1,42 @@
+.MuiTableRow-root > * {
+    padding: 2px;
+  }
+  
+  .MuiTableRow-root.MuiTableRow-head > * {
+    font-weight: bold !important;
+  }
+  
+  .StudentTable td,
+  th {
+    border: none !important;
+  }
+  
+  .StudentTable:first-child {
+    border-radius: 2rem !important;
+  }
+  .status {
+    padding: 8px;
+    border-radius: 9px;
+  }
+  
+  .Details {
+    color: #00b5ff !important;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .StudentTable {
+      width: 170%;
+      margin-top: 2rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .StudentTable{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 23rem;
+    }
+  }
